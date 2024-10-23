@@ -7,6 +7,7 @@ import { Suspense } from 'react';
 import { RevenueChartSkeleton } from '@/app/ui/skeletons';
 import { fetchRevenue } from '@/app/lib/data';
  
+
 export default async function Page() {
 
   const latestInvoices = await fetchLatestInvoices();
